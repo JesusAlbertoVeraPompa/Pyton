@@ -1,4 +1,4 @@
-#Caracteres especiales en Python
+# Caracteres especiales en Python
 
 # Nueva línea
 cadena_nueva_linea = "Primera línea\nSegunda línea"
@@ -9,7 +9,7 @@ cadena_tabulacion = "Columna 1\tColumna 2\tColumna 3"
 print(cadena_tabulacion)
 
 # Comillas dentro de cadenas
-cadena_comillas = "Ella dijo: \"Hola, ¿cómo estás?\""
+cadena_comillas = 'Ella dijo: "Hola, ¿cómo estás?"'
 print(cadena_comillas)
 
 # Barra invertida

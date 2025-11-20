@@ -3,7 +3,7 @@
 # En Python, las constantes se definen utilizando variables con nombres en mayúsculas.
 PI = 3.1416
 MAX_CONNECTIONS = 100
-API_KEY = "12345-ABCDE"     
+API_KEY = "12345-ABCDE"
 
 # Imprimir las constantes
 print("Valor de PI:", PI)

@@ -1,13 +1,14 @@
 # Manejo de Cadenas en Python
 
 nombre = "Juan"
+edad = 30
 saludo = "Hola, ¿Como estas?"
 frase_completa = saludo + " " + nombre
 print(frase_completa)
 
 
 # Uso de comillas simples y dobles
-comillas_simples = 'Esto es una cadena con comillas simples'
+comillas_simples = "Esto es una cadena con comillas simples"
 comillas_dobles = "Esto es una cadena con comillas dobles"
 print(comillas_simples)
 print(comillas_dobles)
@@ -23,6 +24,7 @@ print(cadena_multilinea)
 cadena_acceso = "Python"
 primer_caracter = cadena_acceso[0]
 print("Primer carácter de 'Python':", primer_caracter)
+
 
 # Subcadenas (slicing)
 subcadena = cadena_acceso[1:4]
@@ -75,8 +77,7 @@ print(cadena_fstring_expresion)
 
 # Cadenas multilínea con paréntesis
 cadena_multilinea_parentesis = (
-    "Esta es una cadena que abarca "
-    "varias líneas usando paréntesis."
+    "Esta es una cadena que abarca " "varias líneas usando paréntesis."
 )
 print(cadena_multilinea_parentesis)
 
@@ -108,8 +109,8 @@ print(cadena_fstring_matematicas)
 
 
 # Cadenas con Concatenación y Repetición
-cadena_saludo = "Hola! "* 3
-print(cadena_saludo)    
+cadena_saludo = "Hola! " * 3
+print(cadena_saludo)
 cadena_nombre = "Juan"
 cadena_completa = cadena_saludo + cadena_nombre
 print(cadena_completa)
@@ -120,7 +121,10 @@ print("Original:", cadena_ejemplo)
 print("Mayúsculas:", cadena_ejemplo.upper())
 print("Minúsculas:", cadena_ejemplo.lower())
 print("Eliminar espacios:", cadena_ejemplo.strip())
-print("Reemplazar 'Genial' por 'Increíble':", cadena_ejemplo.replace("Genial", "Increíble"))
+print(
+    "Reemplazar 'Genial' por 'Increíble':",
+    cadena_ejemplo.replace("Genial", "Increíble"),
+)
 print("Dividir por espacios:", cadena_ejemplo.split())
 
 # Cadenas con Formateo
