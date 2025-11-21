@@ -75,5 +75,20 @@ for fruta in sorted(frutas):
 print("Uso de la función sorted() terminado.")
 print("Ciclos en Python completados.")
 
+## Funcion Range
+print("\nDemostración de la función range():")
+for num in range(1, 11):  # Números del 1 al 10
+    print(num, end=" ")
+print("\nFunción range() demostrada.")
 
+## Funcion Range de 3 argumentos
+print("\nDemostración de la función range() con 3 argumentos:")
+for num in range(10, 0, -2):  # Números del 10 al 1 con paso -2
+    print(num, end=" ")
+print("\nFunción range() con 3 argumentos demostrada.")
 
+## Funcion Enumerate
+print("\nDemostración de la función enumerate():")
+for index, value in enumerate(["a", "b", "c", "d"]):
+    print(f"Índice: {index}, Valor: {value}")
+print("Función enumerate() demostrada.")
